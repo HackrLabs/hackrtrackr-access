@@ -1,0 +1,24 @@
+{
+  "name": "hackrtrackr-access",
+  "version": "1.5.0",
+  "description": "Access Control System for Hackr Trackr",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HakrLabs/hackrtrackr-access.git"
+  },
+  "author": "Daniel Grove <danny@drgrovellc.com>",
+  "license": "AGPL",
+  "bugs": {
+    "url": "https://github.com/HakrLabs/hackrtrackr-access/issues"
+  },
+  "homepage": "https://github.com/HakrLabs/hackrtrackr-access",
+  "dependencies": {
+    "pg": "^3.3.0",
+    "serialport": "^1.4.0"
+  }
+}
