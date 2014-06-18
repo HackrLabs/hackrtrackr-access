@@ -3,7 +3,7 @@ var serialport = require('serialport'),
     pg = require('pg'),
     config = require('./libs/config');
 
-var sp = new serial("/dev/ttyUSB0",
+var sp = new serial(config.device,
     { baudrate: 57600
       , parser: serialport.parsers.readline("\n")
   , buffersize: 100

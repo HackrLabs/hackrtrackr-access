@@ -10,6 +10,7 @@ var config =
       , database: 'hackertracker'
     }
   }
+, device: "/dev/ttyACM0"
 };
 
 module.exports = config;
